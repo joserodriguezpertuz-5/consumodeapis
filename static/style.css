@@ -1,0 +1,21 @@
+body { font-family: Arial, sans-serif; background: #0f1419; color: #fff; margin: 0; padding: 20px; }
+h1 { text-align: center; color: #97ce4c; }
+
+.controles { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px; }
+input, select, button { padding: 8px 12px; border-radius: 6px; border: none; font-size: 15px; }
+button { background: #97ce4c; cursor: pointer; font-weight: bold; }
+button:disabled { background: #555; cursor: not-allowed; }
+
+#lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; max-width: 1000px; margin: auto; }
+.tarjeta { background: #1c242d; border-radius: 10px; overflow: hidden; }
+.tarjeta img { width: 100%; display: block; }
+.tarjeta div { padding: 10px; }
+.tarjeta h3 { margin: 0 0 6px; font-size: 16px; }
+.tarjeta p { margin: 2px 0; font-size: 14px; color: #bbb; }
+
+.alive { color: #55cc44; }
+.dead { color: #d63d2e; }
+.unknown { color: #aaa; }
+
+#mensaje { text-align: center; margin: 20px; }
+#paginacion { display: flex; gap: 12px; justify-content: center; align-items: center; margin-top: 20px; }
